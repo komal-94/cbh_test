@@ -1,3 +1,8 @@
+Note:
+I have made the below changes for the assessment:
+1. Check Ticket_Breakdown.md for ticket breakdown task
+2. Refactored code is present in dpk.js and the respective testcases are added in the dpk.test.js with refactoring explaination in Refactoring.md
+
 This project contains two challenges - a "Ticket Breakdown" challenge and a "Refactoring" challenge. The two challenges are unrelated, but you should complete both in the same folder and share the link in Coderbyte. Any written answers should be included in markdown files within this folder.
 
 
