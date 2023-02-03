@@ -9,3 +9,10 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+1. Move the TRIVIAL_PARTITION_KEY and MAX_PARTITION_KEY_LENGTH constants at the top of the file
+2. Created a helper function named hash which will create hash and thus making code more DRY
+3. Simplified if else ladder by assigning default value to candidate as TRIVIAL_PARTITION_KEY
+4. Used ternary operator to return candidate by making check of candidate length against MAX_PARTITION_KEY_LENGTH and thus made code more clean
+5. I have added more test cases for each of the possible scenario so that the code is well tested against all possibilities.
+6. To ensure my code does not break the existing implementation tested it against test cases and code has successfully passed.
+7. By following all that i could, I have ensured the code becomes more clean, neat, readable and avoid unneccessary complexities.
